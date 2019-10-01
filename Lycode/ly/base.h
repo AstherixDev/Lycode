@@ -8,10 +8,17 @@
 #define l this->_Pos.y
 #define c this->_Pos.x
 
+const vec2i _defaultPos = vec2i(-1, -1);
+
+namespace moveMode {
+	constexpr bool Absolute = true, Relative = false;
+}
+
+namespace direction {
+	constexpr int up = 0, down = 1, left = 2, right = 3;
+}
+
 namespace lycode {
-	namespace direction {
-		constexpr int up = 0, down = 1, left = 2, right = 3;
-	}
 	class splitBuffer {
 		std::vector <char> _Left, _Right;
 

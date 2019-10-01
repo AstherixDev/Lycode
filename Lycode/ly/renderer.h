@@ -16,4 +16,5 @@ void gw::draw() {
 	gw::clearScreen(sf::Color::White);
 }
 
-#include "ly/base.h"
+
+
