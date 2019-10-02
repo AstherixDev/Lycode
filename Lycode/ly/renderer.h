@@ -1,7 +1,7 @@
 #include "graphicsWrapper.h"
-#include "base.h"
-#include "scheme.h"
-#include "file.h"
+#include "ly\base.h"
+#include "ly\scheme.h"
+#include "ly\file.h"
 
 _DECLARE_LYCODE
 

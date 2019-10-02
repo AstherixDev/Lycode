@@ -1,5 +1,5 @@
 #include "graphicsWrapper.h"
-#include "base.h"
+#include "ly\base.h"
 
 using namespace lycode;
 

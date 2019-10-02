@@ -1,6 +1,6 @@
-#include "renderer.h"
-#include "base.h"
-#include "input.h"
+#include "ly\renderer.h"
+#include "ly\base.h"
+#include "ly\input.h"
 
 graphicsWrapper graphics;
 

@@ -2,7 +2,7 @@
 #include <fstream>
 #include <string>
 #include <vector>
-#include "log.h"
+#include "ly\log.h"
 
 namespace lycode {
 	class file : std::vector <std::string> {

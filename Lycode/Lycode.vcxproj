@@ -22,19 +22,19 @@
     <ClCompile Include="main.cc" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="base.h" />
-    <ClInclude Include="file.h" />
-    <ClInclude Include="global.h" />
-    <ClInclude Include="init.h" />
-    <ClInclude Include="log.h" />
-    <ClInclude Include="parsers.h" />
-    <ClInclude Include="renderer.h" />
     <ClInclude Include="graphicsWrapper.h" />
-    <ClInclude Include="input.h" />
-    <ClInclude Include="scheme.h" />
-    <ClInclude Include="syntax.h" />
-    <ClInclude Include="ui.h" />
-    <ClInclude Include="util.h" />
+    <ClInclude Include="ly\base.h" />
+    <ClInclude Include="ly\file.h" />
+    <ClInclude Include="ly\global.h" />
+    <ClInclude Include="ly\init.h" />
+    <ClInclude Include="ly\input.h" />
+    <ClInclude Include="ly\log.h" />
+    <ClInclude Include="ly\parsers.h" />
+    <ClInclude Include="ly\renderer.h" />
+    <ClInclude Include="ly\scheme.h" />
+    <ClInclude Include="ly\syntax.h" />
+    <ClInclude Include="ly\ui.h" />
+    <ClInclude Include="ly\util.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

@@ -20,43 +20,43 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="base.h">
+    <ClInclude Include="ly\base.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="util.h">
+    <ClInclude Include="ly\file.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="input.h">
+    <ClInclude Include="ly\global.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ly\init.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ly\input.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ly\log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ly\parsers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ly\renderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ly\scheme.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ly\syntax.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ly\ui.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ly\util.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="graphicsWrapper.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="renderer.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="scheme.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="parsers.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="file.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="log.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="ui.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="syntax.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="init.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="global.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

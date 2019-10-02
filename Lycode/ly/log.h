@@ -1,5 +1,5 @@
 #pragma once
-#include "global.h"
+#include "ly\global.h"
 
 #ifdef _LYCODE_LOG
 	#include <iostream>
